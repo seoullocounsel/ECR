@@ -41,8 +41,11 @@ footer .wrap{border-top:1px solid var(--line);padding:17px 0 28px;font-size:12px
 @media(max-width:540px){.hero h1{font-size:clamp(24px,7.6vw,34px);max-width:none}.art{opacity:.28}}
 footer .center-link{color:var(--deep);font-weight:650;text-underline-offset:3px}footer .center-link:focus-visible{outline-offset:4px}@media(max-width:540px){footer .wrap{display:flex;flex-wrap:wrap;align-items:center}}
 .result-center{border-top:1px solid var(--line);padding:14px 0;margin:10px 0 0;text-align:right}.result-center a{color:var(--deep);font-weight:650;text-underline-offset:3px}
+.header-center,.result-center a{display:inline-flex;align-items:center;gap:.4em;padding:6px 12px;border:1px solid #a6bbab;border-radius:5px;color:var(--deep);background:#eaf0e5;font-size:14px;font-weight:650;text-decoration:none}
+.header-center:hover,.result-center a:hover{background:#dce9d9;text-decoration:underline}
+@media(max-width:540px){.header-center{font-size:13px;padding:6px 8px}.brand{gap:6px}}
 </style></head><body>
-<header><div class="wrap"><div class="brand"><i class="mark" aria-hidden="true"></i>나의 애착유형</div><span class="headerlabel">친밀한 관계 검사 · ECR-R 기반</span></div></header>
+<header><div class="wrap"><div class="brand"><i class="mark" aria-hidden="true"></i>나의 애착유형</div><a class="header-center" href="https://seoullocounsel.github.io/yonseiseoullo/" target="_blank" rel="noopener noreferrer">연세서울로심리상담센터 <span aria-hidden="true">↗</span></a></div></header>
 <main class="wrap">
 <section class="welcome" id="intro"><div class="hero"><div class="heroText"><div class="kicker">성인 애착 자기보고 검사</div><h1>나는 불안형일까?<br>회피형일까?</h1><p>가까운 사람과 지낼 때, 나는 무엇을 걱정하고<br>어느 정도의 거리를 편안하게 느낄까요?</p><button class="action" id="start">검사 시작 <span class="arrow" aria-hidden="true">→</span></button><div style="margin-top:12px;font-size:13px;color:#d4e1d3">36문항 · 7점 척도</div></div><div class="art" aria-hidden="true"><canvas id="cover"></canvas></div></div>
 <h2>검사에서 살펴보는 두 가지</h2><div class="dimensions"><article class="dimension"><h3><i class="key"></i>애착 불안</h3><p>상대의 마음이 변하거나 나를 떠날까 봐 얼마나 걱정하는지 살펴봅니다.</p></article><article class="dimension"><h3><i class="key green"></i>애착 회피</h3><p>속마음을 나누거나 필요할 때 상대에게 기대는 일을 얼마나 불편하게 느끼는지 살펴봅니다.</p></article></div><p class="footnote">응답과 결과는 이 창에서만 사용되며, 창을 닫거나 새로 고치면 지워집니다.</p></section>
